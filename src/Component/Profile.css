@@ -1,0 +1,433 @@
+.Profile {
+    background-color: #272727;
+    width: 100%;
+    height: auto;
+}
+
+.Black-box {
+    width: 99%;
+    margin: 0px 10px;
+    /* height: 136vh; */
+    padding-bottom: 40px;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Prfile-heading {
+    color: #C3A177;
+    text-align: left;
+    padding: 18px 0px 0px 10px;
+    font-size: 25px;
+}
+
+.underline {
+    width: 100%;
+    background-color: #1E1810;
+    height: 1px;
+}
+
+.button-div1 {
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #C3A177;
+    transition: all 250ms ease-in;
+    margin-top: 40px;
+    padding-bottom: 16px;
+}
+
+
+
+.button-div1:hover {
+    box-shadow: 0px 0px 13px #C3A177;
+}
+
+
+
+.button-3 button {
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 18px;
+    background-color: transparent;
+    border: none;
+    color: #747882;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 450ms ease-out;
+}
+
+.button-3 button:hover {
+    border-bottom: 2px solid #C3A177;
+}
+
+.underline-1 {
+    width: 92%;
+    margin: 6px 0px 22px 25px;
+    background-color: #1E1810;
+    height: 1px;
+}
+
+.Personal-Data {
+    border: 1px solid #C3A177;
+    width: 64%;
+    /* height: 96vh; */
+    margin: auto;
+    background-color: #161616;
+}
+
+.Personal-heading {
+    text-align: left;
+    color: #C3A177;
+    margin-left: 30px;
+
+}
+
+.Personal-Data h3 {
+    margin-left: 30px;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+}
+
+.personal-input {
+    width: 86%;
+    height: 44px;
+    font-size: 16px;
+    letter-spacing: .2px;
+    padding-left: 10px;
+    margin: 0px;
+    background-color: #E9ECEF;
+    border: none;
+}
+
+.personal-button {
+    cursor: pointer;
+    width: 89%;
+    height: 40px;
+    margin: 28px 0px 25px 0px;
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #BE9A64;
+    transition: all 250ms ease-in;
+}
+
+.personal-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+
+@media (max-width:768px) {
+
+    .Profile {
+        width: 100%;
+        height: auto;
+    }
+
+    .Black-box {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .button-div1 {
+        width: 92% !important;
+    }
+
+    .Personal-Data {
+        width: 95%;
+        margin: auto;
+        background-color: #161616;
+    }
+}
+
+@media (max-width:968px) {
+
+    .Profile {
+        background-color: #272727;
+        width: 100%;
+        height: auto;
+    }
+
+    .Black-box {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .button-div1 {
+        width: 90%;
+
+    }
+
+    .Personal-Data {
+        border: 1px solid #C3A177;
+        width: 92%;
+        /* height: 96vh; */
+        margin: auto;
+        background-color: #161616;
+    }
+}
+
+@media (max-width:1168px) {
+
+    .Profile {
+        background-color: #272727;
+        width: 100%;
+        height: auto;
+    }
+
+    .Black-box {
+        width: 95%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .button-div1 {
+        width: 85%;
+
+    }
+
+    .Personal-Data {
+        border: 1px solid #C3A177;
+        width: 85%;
+        /* height: 96vh; */
+        margin: auto;
+        background-color: #161616;
+    }
+
+    .Personal-heading {
+        margin-left: 40px;
+
+    }
+
+    .Personal-Data h3 {
+        margin-left: 40px;
+    }
+
+}
+
+
+/*   ---------Referal link------------- */
+
+
+.Black-box-1 {
+    height: 100vh;
+
+}
+
+/* .button-div2 {
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #C3A177;
+    transition: all 250ms ease-in;
+    margin-top: 40px;
+    padding-bottom: 16px;
+} */
+
+.Personal-Data-1 {
+    border: 1px solid #C3A177;
+    width: 90%;
+    height: 18vh;
+    margin: auto;
+    background-color: #161616;
+}
+
+.Referral-heading {
+    text-align: left;
+    color: #fcfaf7;
+    margin-left: 30px;
+    font-weight: 100;
+    font-size: 16px;
+
+}
+
+.link-1 {
+    width: 90%;
+    height: 6vh;
+    background-color: #272727;
+    text-align: center;
+    color: white;
+    display: flex;
+    gap: 65px;
+    padding-left: 15px;
+    justify-content: left;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #3E3830;
+    /* padding: 15px 0px 0px 0px; */
+}
+
+@media (max-width:525px) {
+    .Personal-Data-1 {
+        border: 1px solid #C3A177;
+        width: 93%;
+        height: 18vh;
+        margin: auto;
+        background-color: #161616;
+    }
+
+    .Referral-heading {
+        text-align: left;
+        color: #fcfaf7;
+        margin-left: 30px;
+        font-weight: 100;
+        font-size: 18px;
+
+    }
+
+    .link-1 {
+        width: auto;
+        height: auto;
+        gap: 65px;
+        padding-left: 15px;
+        justify-content: left;
+        align-items: center;
+        margin: 0px 20px;
+        border: 1px solid #3E3830;
+        /* padding: 15px 0px 0px 0px; */
+    }
+
+}
+
+@media (max-width:800px) and (min-width:526px) {
+
+    .Black-box-1 {
+        height: 90vh;
+
+    }
+
+
+    .Personal-Data-1 {
+        border: 1px solid #C3A177;
+        width: 90%;
+        height: 18vh;
+        margin: auto;
+        background-color: #161616;
+    }
+
+    .Referral-heading {
+        text-align: left;
+        color: #fcfaf7;
+        margin-left: 30px;
+        font-weight: 100;
+        font-size: 16px;
+
+    }
+
+    .link-1 {
+        width: 90%;
+        height: 6vh;
+        background-color: #272727;
+        text-align: center;
+        color: white;
+        display: flex;
+        gap: 65px;
+        padding-left: 15px;
+        justify-content: left;
+        align-items: center;
+        margin: auto;
+        border: 1px solid #3E3830;
+        /* padding: 15px 0px 0px 0px; */
+    }
+
+}
+
+
+
+
+
+/* --------------Change Password--------------- */
+
+.Profile {
+
+    background-color: #272727;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.Personal-Data-2 {
+    border: 1px solid #C3A177;
+    width: 64%;
+    height: auto;
+    margin: auto;
+    background-color: #161616;
+}
+
+.Personal-heading-1 {
+    text-align: left;
+    color: #C3A177;
+    margin-left: 30px;
+    font-size: 24px;
+    display: block;
+    font-weight: 600;
+
+}
+
+.Personal-Data-2 .change-password-heading {
+    margin-left: 30px;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+}
+
+.personal-input-1 {
+    width: 86%;
+    height: 44px;
+    font-size: 16px;
+    letter-spacing: .2px;
+    padding-left: 10px;
+    color: #698080;
+    background-color: #272727;
+    border: 1px solid #3E3830;
+
+}
+
+
+/* .personal-input-1{
+    width: 86%;
+    height: 44px;
+    font-size: 16px;
+    letter-spacing: .2px;
+    padding-left: 10px;
+    margin: 0px;
+    background-color: #272727;
+    border: none;
+} */
+
+.personal-button-1 {
+    cursor: pointer;
+    width: 89%;
+    height: 40px;
+    margin: 28px 0px 25px 0px;
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #BE9A64;
+    transition: all 250ms ease-in;
+}
+
+@media (max-width:768px) {
+
+
+    .Profile {
+
+        background-color: #272727;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .Personal-Data-2 {
+        width: 90%;
+    }
+
+}

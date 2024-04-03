@@ -1,0 +1,687 @@
+.Dashboard {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: rgb(39, 39, 39); */
+}
+
+body {
+    background: rgb(39, 39, 39);
+    /* height: 200vh; */
+}
+
+
+.mainheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    border-bottom: 0.1px solid rgba(177, 141, 95, .169);
+}
+
+.mainheading h1 {
+    font-size: 28px;
+    /* margin-left:80px; */
+
+}
+
+.rightbutton button {
+    color: #d8af72;
+    border: 1px solid #d8af72;
+    border-radius: 5px;
+    background: transparent;
+    height: 33px;
+    /* width: 110px; */
+    padding: 6px;
+    font-size: 14px;
+    transition: all 250ms;
+
+}
+
+
+
+.rightbutton button:hover {
+    box-shadow: 0 0 20px -6px #d8af72;
+    transform: scale(1.08);
+    /* z-index:1; */
+}
+
+.container1 {
+    padding-top: 15px;
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    color: #d8af72;
+}
+
+.leftcontainer1 {
+    position: relative;
+    width: 360px;
+    height: 230px;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.Rightcontainer1 {
+    position: relative;
+    width: 360px;
+    height: 230px;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    /* line-height: 1.334; */
+}
+
+.YourInvestmentdiv {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    /* position: absolute; */
+}
+
+.blankline {
+    background-color: #1976d2;
+    border-radius: 20px;
+    width: 325px;
+    height: 6px;
+    /* padding-top: -10px; */
+}
+
+
+
+/*  ---------Reward Income------------ */
+
+
+
+.TotalIncome {
+
+    display: flex;
+    justify-content: center;
+    color: #d8af72;
+}
+
+.Rightcontainer1-in-1 {
+    width: 390px;
+    height: 220px;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.YourInvestmentdiv-1 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.blankline-1 {
+    background-color: #1976d2;
+    border-radius: 20px;
+    width: 325px;
+    height: 6px;
+}
+
+/*-------------END--------------- */
+
+
+
+
+.container2 {
+    margin-top: 50px;
+    margin: 0px 50px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.container-inner-row1 {
+    height: 45vh;
+    background-color: #161616;
+    border: 1px solid #D8AF72;
+    margin-top: 50px;
+    transition: all 450ms;
+
+}
+
+.container-inner-row1 .box-header {
+    background-color: #000;
+    margin-top: 0px;
+    padding: 5px 0px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.container-inner-row1 p {
+    color: #6E716E;
+    line-height: 40px;
+    padding-left: 15px;
+
+}
+
+.container-inner-row1:hover {
+    box-shadow: 0px 0px 20px -6px #d8af72;
+}
+
+/*  ---------------Total Income------------------------ */
+
+.TotalIncome {
+    position: relative;
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* align-items: center; */
+
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+
+.container-inner-row {
+    position: absolute;
+    width: 340px;
+    height: 47vh;
+    background-color: #161616;
+    border: .1px solid #7B6446;
+    transition: all 450ms;
+
+
+}
+
+.container-inner-row .box-header-1 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-color: #000;
+    margin-top: 0px;
+    padding: 5px 0px;
+}
+
+.container-inner-row p {
+    color: #777b77;
+    text-align: start;
+    line-height: 40px;
+    padding-left: 15px;
+    font-weight: 600;
+    letter-spacing: .5px;
+
+}
+
+.container-inner-row:hover {
+    box-shadow: 0px 0px 20px -6px #d8af72;
+}
+
+/* ----------------END----------------------- */
+
+.container-inner-row1-in-1 {
+    border: 1px solid #d8af72;
+    width: 290px;
+    position: relative;
+    margin-top: 10px;
+    transition: all 450ms;
+    background-color: #161616;
+    color: white;
+}
+
+.container-inner-row1-in-1:hover {
+    box-shadow: 0px 0px 20px -6px #d8af72;
+
+}
+
+.container-inner-row1-in-1 .Referal-Heading {
+    text-align: center;
+    background-color: #000;
+    margin-top: 0px;
+    padding: 8px 0px;
+
+}
+
+.container-inner-row1-in-1 img {
+    align-items: center;
+    padding-left: 34px;
+    width: 240px;
+    padding-bottom: 20px;
+}
+
+.container-inner-row1-in-1-row2 {
+    width: 97%;
+    border: 1px solid #D8AF72;
+    margin: auto;
+}
+
+.container-inner-row1-in-1-row2 h3 {
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.linkscopy {
+    margin-bottom: 20px;
+    width: 96%;
+    margin-left: 5px;
+    align-items: center;
+    border: 1px solid #3E3830;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkscopy p {
+    font-size: 9px;
+    line-height: 30px;
+}
+
+
+
+.container-inner-row2 {
+    border: 1px solid #d8af72;
+    padding-bottom: 10px;
+    width: 290px;
+    position: relative;
+    margin-top: 50px;
+    transition: all 450ms;
+    background-color: #161616;
+}
+
+.container-inner-row2 .box-header {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-color: #000;
+    margin-top: 0px;
+    padding: 5px 0px;
+}
+
+.container-inner-row2 p {
+    padding-left: 15px;
+    color: #6E716E;
+    line-height: 40px;
+
+}
+
+.container-inner-row2:hover {
+    box-shadow: 0px 0px 20px -6px #d8af72;
+}
+
+.container-inner-row2-in-1 {
+    border: 1px solid #d8af72;
+    width: 290px;
+    height: 16vh;
+    position: relative;
+    margin-top: 10px;
+    transition: all 450ms;
+    background-color: #161616;
+}
+
+.container-inner-row2-in-1 .box-header {
+    background-color: #000;
+    margin-top: 0px;
+    padding: 8px 0px;
+
+    text-align: center;
+    color: white;
+    font-weight: 700;
+
+
+}
+
+.container-inner-row2-in-1 p {
+    color: #6E716E;
+    padding-left: 15px;
+}
+
+.container-inner-row2-in-1:hover {
+    box-shadow: 0px 0px 20px -6px #d8af72;
+}
+
+
+
+.container-inner-row3 {
+    border: 1px solid #d8af72;
+    width: 290px;
+    height: 45vh;
+    position: relative;
+    margin-top: 50px;
+    transition: all 450ms;
+    background-color: #161616;
+}
+
+.container-inner-row3 .box-header {
+    background-color: #000;
+    margin-top: 0px;
+    padding: 8px 0px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    /* position: absolute; */
+
+}
+
+.container-inner-row3 p {
+    color: #6E716E;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+.container-inner-row3:hover {
+    box-shadow: 0px 0px 20px -6px #d8af72;
+}
+
+@media (max-width:400px) {
+    .mainheading h1 {
+        font-size: 10px;
+        /* margin-left:80px; */
+    
+    }
+}
+
+
+
+@media (max-width:768px) {
+    
+    .mainheading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0px;
+        border-bottom: 0.1px solid rgba(177, 141, 95, .169);
+    }
+
+    .mainheading h1 {
+        font-size: 15px;
+        /* margin-left:80px; */
+
+    }
+
+    .rightbutton button {
+        color: #d8af72;
+        border: 1px solid #d8af72;
+        border-radius: 5px;
+        background: transparent;
+        height: 33px;
+        /* width: 110px; */
+        padding: 6px;
+        font-size: 14px;
+        transition: all 250ms;
+
+    }
+
+
+
+    .rightbutton button:hover {
+        box-shadow: 0 0 20px -6px #d8af72;
+        transform: scale(1.08);
+        /* z-index:1; */
+    }
+
+    .container1 {
+        padding-top: 15px;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 10px;
+        color: #d8af72;
+    }
+
+    .leftcontainer1 {
+        position: relative;
+        width: 400px;
+        height: 230px;
+        background-color: #000;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    .Rightcontainer1 {
+        position: relative;
+        width: 400px;
+        height: 230px;
+        background-color: #000;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+        /* line-height: 1.334; */
+    }
+
+
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        /* gap: 20px; */
+    }
+
+
+    .container-inner-row1 {
+        height: auto;
+        /* width: 60vh; */
+
+    }
+
+
+
+    .container-inner-row2 {
+        height: auto;
+    }
+
+    .container-inner-row2 {
+        margin: 2px;
+    }
+
+    .container-inner-row2-in-1 {
+        margin-top: 15px;
+    }
+
+
+    .container-inner-row3 {
+        margin: 2px;
+    }
+
+
+}
+
+@media (max-width:968px) {
+
+    .mainheading {
+        padding: 0px 0px;
+    }
+
+
+
+    .rightbutton button {
+        padding: 6px 10px;
+
+    }
+
+
+    .container1 {
+        padding-top: 15px;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 5px;
+        color: #d8af72;
+    }
+
+    .leftcontainer1 {
+        position: relative;
+        width: 333px;
+        height: 230px;
+        background-color: #000;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    .Rightcontainer1 {
+        position: relative;
+        width: 333px;
+        height: 230px;
+        background-color: #000;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+        /* line-height: 1.334; */
+    }
+
+    .blankline {
+        background-color: #1976d2;
+        border-radius: 20px;
+        width: 300px;
+        height: 6px;
+        /* padding-top: -10px; */
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        /* gap: 20px; */
+    }
+
+
+    .container-inner-row1 {
+        height: auto;
+        /* width: 60vh; */
+
+    }
+
+
+
+    .container-inner-row2 {
+        height: auto;
+    }
+
+    .container-inner-row2 {
+        margin: 2px;
+    }
+
+    .container-inner-row2-in-1 {
+        margin-top: 15px;
+    }
+
+
+    .container-inner-row3 {
+        margin: 2px;
+    }
+}
+
+@media (max-width:1168px) {
+
+    .mainheading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 80px;
+        border-bottom: 0.1px solid rgba(177, 141, 95, .169);
+    }
+
+    .mainheading h1 {
+        font-size: 28px;
+        /* margin-left:80px; */
+
+    }
+
+    .rightbutton button {
+        color: #d8af72;
+        border: 1px solid #d8af72;
+        border-radius: 5px;
+        background: transparent;
+        height: 33px;
+        /* width: 110px; */
+        padding: 6px;
+        font-size: 14px;
+        transition: all 250ms;
+
+    }
+
+
+
+    .rightbutton button:hover {
+        box-shadow: 0 0 20px -6px #d8af72;
+        transform: scale(1.08);
+        /* z-index:1; */
+    }
+
+    .container1 {
+        padding-top: 15px;
+        /* margin-top: 40px; */
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 5px;
+        color: #d8af72;
+    }
+
+    .leftcontainer1 {
+        position: relative;
+        width: 420px;
+        height: 230px;
+        background-color: #000;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    .Rightcontainer1 {
+        position: relative;
+        width: 420px;
+        height: 230px;
+        background-color: #000;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+        /* line-height: 1.334; */
+    }
+
+    .YourInvestmentdiv {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 600;
+        /* position: absolute; */
+    }
+
+    .blankline {
+        background-color: #1976d2;
+        border-radius: 20px;
+        width: 375px;
+        height: 6px;
+        /* padding-top: -10px; */
+    }
+
+    .container-inner-row1 {
+        height: auto;
+    }
+
+    .container-inner-row3 {
+        height: auto;
+    }
+
+}

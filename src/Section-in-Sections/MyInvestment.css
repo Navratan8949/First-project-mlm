@@ -1,0 +1,628 @@
+body {
+    background: rgb(39, 39, 39);
+}
+
+.AllDeposite {
+    padding: 0px 20px;
+    width: 100%;
+    /* height: 100vh; */
+
+}
+
+.heading {
+    border-bottom: 2px solid rgba(177, 141, 95, .169);
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 24px;
+}
+
+.Table-div {
+    width: 97%;
+    height: 70vh;
+    border-radius: 5px;
+    margin: 0px 20px;
+    padding: 0px 20px;
+    background-color: #000;
+    border: 1px solid rgba(177, 141, 95, .651);
+}
+
+.Table-div:hover {
+    box-shadow: 0px 0px 20px -6px #D8AF72;
+    transition: all 0.3s ease-in;
+
+}
+
+
+
+.input-first-row h1 {
+    color: white;
+    font-size: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.input-first-row input {
+    width: 452px;
+    background-color: #272727;
+    border: transparent;
+    border: 1x solid rgba(177, 141, 95, .169);
+    height: 40px;
+    color: white;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    padding: 9px 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.Second-input {
+    padding: 40px 0px 0px 0px;
+}
+
+.Second-input h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+.Second-input select {
+    padding: 9px 5px;
+    font-size: 17px;
+    border: transparent;
+    border: 1px solid rgba(177, 141, 95, .169);
+    width: 452px;
+    height: 3rem;
+    background-color: #272727;
+    color: #495057;
+    appearance: none;
+}
+
+.Second-input input {
+    padding: 9px 5px;
+    font-size: 17px;
+    border: transparent;
+    border: 1px solid rgba(177, 141, 95, .169);
+    width: 452px;
+    height: 3rem;
+    background-color: #272727;
+    color: #495057;
+    appearance: none;
+}
+
+
+
+.center-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.center-button .Search {
+    color: black;
+    background-color: rgb(195, 161, 119);
+    /* margin-left: 12px; */
+    border: transparent;
+    padding: 12px 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.center-button .Reset {
+    color: #D8AF72;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 14px;
+    background-color: black;
+    border: 1px solid #D8AF72;
+    cursor: pointer;
+    padding: 8px 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.Four-button button {
+    padding: 8px 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #6C757D;
+    margin-top: 26px;
+    transition: all .1s ease-in;
+    font-size: 16px;
+}
+
+.Four-button button:hover {
+    background: #6c757d;
+    color: white;
+}
+
+.Radius-button1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: none;
+}
+
+.Radius-button2 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.table {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    background-color: #C3A177;
+    height: 160px ;
+}
+
+table {
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #C3A177;
+    /* margin-bottom: 100px; */
+}
+
+table tr th {
+    padding-left: 17px;
+}
+
+table tr td {
+    padding-left: 16px;
+}
+
+table th {
+    color: black;
+    padding: 15px 0px;
+    /* margin-left: 20px; */
+}
+
+table td {
+    color: black;
+    padding: 12px 0px;
+    background-color: #BE9A64;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+
+
+table tr th {
+    background-color: white;
+}
+
+
+
+@media (max-width:768px) {
+
+    .heading {
+        font-size: 35px;
+    }
+
+    .Table-div {
+        width: 550px;
+        margin: 0%;     
+    }
+
+    .input-first-row {
+        flex-direction: column;
+    }
+
+    .input-first h1 {
+        font-size: 26px;
+    }
+
+    .input-first input {
+        width: 97%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+
+    .Second-input h1 {
+        font-size: 26px;
+    }
+
+    .Second-input select {
+        width: 97%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .center-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .center-button .Search {
+        color: black;
+        background-color: rgb(195, 161, 119);
+        /* margin-left: 12px; */
+        border: transparent;
+        padding: 23px 54px;
+        font-size: 20px !important;
+        font-weight: 700;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .center-button .Reset {
+        color: #D8AF72;
+        align-items: center;
+        font-size: 20px !important;
+
+        justify-content: center;
+        display: flex;
+        margin-left: 20px;
+        padding-bottom: 14px;
+        background-color: black;
+        border: 1px solid #D8AF72;
+        cursor: pointer;
+        padding: 17px 48px;
+        font-weight: 700;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .Four-button button {
+        padding: 17px 25px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid #6C757D;
+        margin-top: 36px;
+        margin-bottom: 15px;
+        transition: all .1s ease-in;
+        font-size: 16px;
+    }
+
+    .Four-button button:hover {
+        background: #6c757d;
+        color: white;
+    }
+
+    .Radius-button1 {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-left: none;
+    }
+
+    .Radius-button2 {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    /* table {
+    overflow-x: scroll;
+   } */
+
+    .table {
+        margin-top: 30px;
+        margin-bottom: 70px;
+        overflow-x: scroll;
+
+    }
+
+    table {
+        font-size: 27px;
+        color: white;
+        justify-content: space-between;
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        background-color: #C3A177;
+    }
+
+    table tr {
+        border: transparent;
+
+    }
+
+    table tr th {
+        padding-left: 17px;
+
+    }
+
+    table tr td {
+        padding-left: 16px;
+    }
+
+    table th {
+        color: black;
+        padding: 15px 0px;
+        /* margin-left: 20px; */
+    }
+
+    table td {
+        color: black;
+        padding: 12px 0px;
+        background-color: #BE9A64;
+        border-bottom: 1px solid #DEE2E6;
+    }
+
+}
+
+@media (max-width:968px) {
+
+    .input-first-row {
+        flex-direction: column;
+    }
+
+    .input-first h1 {
+        font-size: 26px;
+    }
+
+    .input-first input {
+        width: 97%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+
+    .Second-input h1 {
+        font-size: 26px;
+    }
+
+    .Second-input select {
+        width: 97%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+
+    .center-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .center-button .Search {
+        color: black;
+        background-color: rgb(195, 161, 119);
+        /* margin-left: 12px; */
+        border: transparent;
+        padding: 23px 54px;
+        font-size: 20px !important;
+        font-weight: 700;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .center-button .Reset {
+        color: #D8AF72;
+        align-items: center;
+        font-size: 20px !important;
+
+        justify-content: center;
+        display: flex;
+        margin-left: 20px;
+        padding-bottom: 14px;
+        background-color: black;
+        border: 1px solid #D8AF72;
+        cursor: pointer;
+        padding: 17px 48px;
+        font-weight: 700;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .Four-button button {
+        padding: 17px 25px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid #6C757D;
+        margin-top: 36px;
+        margin-bottom: 15px;
+        transition: all .1s ease-in;
+        font-size: 16px;
+    }
+
+    .Four-button button:hover {
+        background: #6c757d;
+        color: white;
+    }
+
+    .Radius-button1 {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-left: none;
+    }
+
+    .Radius-button2 {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+
+    .table {
+        margin-top: 30px;
+        margin-bottom: 70px;
+        overflow: scroll;
+
+    }
+
+    table {
+        font-size: 27px;
+        color: white;
+        justify-content: space-between;
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        background-color: #C3A177;
+    }
+
+    table tr {
+        border: transparent;
+
+    }
+
+    table tr th {
+        padding-left: 17px;
+
+    }
+
+    table tr td {
+        padding-left: 16px;
+    }
+
+    table th {
+        color: black;
+        padding: 14px 0px;
+        /* margin-left: 20px; */
+    }
+
+    table td {
+        color: black;
+        padding: 4px 0px;
+        background-color: #BE9A64;
+        border-bottom: 1px solid #DEE2E6;
+    }
+}
+
+@media (max-width:1268px) {
+
+    .input-first-row {
+        flex-direction: column;
+    }
+
+    .input-first h1 {
+        font-size: 26px;
+    }
+
+    .input-first input {
+        width: 97%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+
+    .Second-input h1 {
+        font-size: 26px;
+    }
+
+    .Second-input select {
+        width: 97%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+
+    .center-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .center-button .Search {
+        color: black;
+        background-color: rgb(195, 161, 119);
+        /* margin-left: 12px; */
+        border: transparent;
+        padding: 23px 54px;
+        font-size: 20px !important;
+        font-weight: 700;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .center-button .Reset {
+        color: #D8AF72;
+        align-items: center;
+        font-size: 20px !important;
+
+        justify-content: center;
+        display: flex;
+        margin-left: 20px;
+        padding-bottom: 14px;
+        background-color: black;
+        border: 1px solid #D8AF72;
+        cursor: pointer;
+        padding: 17px 48px;
+        font-weight: 700;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .Four-button button {
+        padding: 17px 25px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid #6C757D;
+        margin-top: 36px;
+        margin-bottom: 15px;
+        transition: all .1s ease-in;
+        font-size: 16px;
+    }
+
+    .Four-button button:hover {
+        background: #6c757d;
+        color: white;
+    }
+
+    .Radius-button1 {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-left: none;
+    }
+
+    .Radius-button2 {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+
+    .table {
+        margin-top: 30px;
+        margin-bottom: 70px;
+        overflow: scroll;
+
+    }
+
+    table {
+        font-size: 27px;
+        color: white;
+        justify-content: space-between;
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        background-color: #C3A177;
+    }
+
+    table tr {
+        border: transparent;
+
+    }
+
+    table tr th {
+        padding-left: 17px;
+
+    }
+
+    table tr td {
+        padding-left: 16px;
+    }
+
+    table th {
+        color: black;
+        padding: 14px 0px;
+        /* margin-left: 20px; */
+    }
+
+    table td {
+        color: black;
+        padding: 4px 0px;
+        background-color: #BE9A64;
+        border-bottom: 1px solid #DEE2E6;
+    }
+
+}
